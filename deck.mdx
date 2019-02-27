@@ -13,13 +13,13 @@ import "babel-polyfill";
 export {default as theme} from './theme'
 
 
-# Introduction to React Hooks API
+## Introduction to React Hooks API
 
 <img src="public/react_logo.png" />
 
 ---
 
-# What is Hooks ?
+## What is Hooks ?
 
 <div style={{fontSize: 40, textAlign: 'left'}}>
   <ul>
@@ -33,7 +33,7 @@ export {default as theme} from './theme'
 
 ---
 
-# Motivation
+## Motivation
 
 <div style={{fontSize: 40, textAlign: 'left'}}>
   <ul>
@@ -45,13 +45,13 @@ export {default as theme} from './theme'
 
 ---
 
-## HOC wrapper hell
+### HOC wrapper hell
 
-<img src="public/wrapper-hell.png" />
+<img width="75%" src="public/wrapper-hell.png" />
 
 ---
 
-# Motivation
+## Motivation
 
 <div style={{fontSize: 40, textAlign: 'left'}}>
   <ul>
@@ -64,7 +64,7 @@ export {default as theme} from './theme'
 
 ---
 
-## Class component with life cycle methods
+### Class component with life cycle methods
 
 ```jsx
 class Example extends React.Component {
@@ -92,7 +92,7 @@ class Example extends React.Component {
 
 ---
 
-# Motivation
+## Motivation
 
 <div style={{fontSize: 40, textAlign: 'left'}}>
   <ul>
@@ -106,7 +106,7 @@ class Example extends React.Component {
 
 ---
 
-## How to change state with Hooks ? 
+### How to change state with Hooks ? 
 
 <ToggleButton />
 
@@ -128,7 +128,7 @@ function Toggle() {
 
 ---
 
-## Handle multiple states
+### Handle multiple states
 
 <MultiToggleButtons />
 
@@ -152,22 +152,22 @@ function MultiToggleButtons() {
 
 ---
 
-## Life cycle methods with Hooks ?
+### Life cycle methods with Hooks ?
 
 - ComponentDidMount()
 - ComponentDidUpdate() 
 - ComponentWillUnmount()
-
-### All in one Hook function ?
+<br/>
+- You can use useEffect Hook to simulate this functionality
 
 ---
 
-## Stateful component life cycle
+### Stateful component life cycle
 
-<img src="public/Life_Cycle.png" />
+<img width="85%" src="public/Life_Cycle.png" />
 ---
 
-## useEffect Hook unify life cycle methods 
+### useEffect Hook unify life cycle methods 
 
 ```jsx
 
@@ -195,7 +195,7 @@ function Component() {
 
 ---
 
-## Example of useEffect Hook
+### Example of useEffect Hook
 
 <BackgroundTimer />
 
@@ -225,7 +225,7 @@ function BackgroundTimer() {
 
 ---
 
-## useEffect Hook optimization
+### useEffect Hook optimization
 
 <BackgroundTimerOptimization />
 
@@ -247,7 +247,7 @@ function BackgroundTimerOptimization() {
 
 ---
 
-## Cleanup with useEffect 
+### Cleanup with useEffect 
 
 ```jsx
 function BackgroundTimerOptimization() {
@@ -270,7 +270,7 @@ function BackgroundTimerOptimization() {
 
 ---
 
-## Custom Hook: way to reuse stateful logic 
+### Custom Hook: way to reuse stateful logic 
 
   ```jsx
   import { useEffect } from "react";
@@ -291,7 +291,7 @@ function BackgroundTimerOptimization() {
 
 ---
 
-## Call custom Hook in component
+### Use custom Hook in component
 
 <CustomHookBackgroundTimer />
 
@@ -316,4 +316,4 @@ function CustomHookBackgroundTimer() {
 
 ---
 
-# Questions ?
+## Questions ?

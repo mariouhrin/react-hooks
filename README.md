@@ -1,9 +1,11 @@
 # React Hooks API Presentation
 
-## Run it
+## Install & Run
 
-- `npm install`
+```sh
+npm install
 
-- `npm start` 
+npm start
+```
 
-- presentation will open in browser `http://localhost:8090`
+- presentation will automatically open in default browser `http://localhost:8090`
