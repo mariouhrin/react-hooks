@@ -1,8 +1,7 @@
 {
-  "name": "simply-react",
+  "name": "react-hooks",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Presentation about React Hooks API",
   "scripts": {
     "start": "mdx-deck deck.mdx -p 8090",
     "prebuild": "rimraf dist",
@@ -11,8 +10,7 @@
     "build:pdf": "mdx-deck pdf deck.mdx",
     "postbuild": "cpy --parents \"public/**\" ./dist"
   },
-  "keywords": [],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Mario Uhrin",
   "license": "MIT",
   "devDependencies": {
     "cpy-cli": "^2.0.0",
@@ -24,11 +22,8 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "codemirror": "^5.39.2",
-    "emotion": "^9.2.6",
     "lodash": "^4.17.11",
     "react-codemirror2": "^5.1.0",
-    "react-emotion": "^9.2.6",
-    "react-pose": "^2.2.1",
     "react-transition-group": "^2.4.0"
   }
 }
