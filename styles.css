@@ -1,0 +1,106 @@
+.zIEGn {
+  position: relative;
+}
+
+.react-codemirror2 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.react-codemirror2:first-child {
+  margin-top: 0;
+}
+
+.react-codemirror2:last-child {
+  margin-bottom: 0;
+}
+
+.CodeMirror {
+  height: unset;
+  margin-bottom: 18px;
+  padding: 14px;
+}
+
+.CodeMirror pre {
+  font-variant-ligatures: none;
+}
+
+pre {
+  text-align: left;
+  font-size: 28px;
+  margin-bottom: 100px !important
+}
+
+a {
+  color: #addb67;
+}
+
+* {
+  letter-spacing: unset;
+}
+
+.list-margins {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.btn-green {
+  background-color: #4CAF50;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn-blue {
+  background-color: #008CBA;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.btn-blue:active {
+  transform: translateY(2px);
+  filter: saturate(180%);
+}
+
+.btn-green:active {
+  transform: translateY(2px);
+  filter: saturate(180%);
+}
+
+.colorful {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.colorful-optimize {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.colorful-custom-hook {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+
