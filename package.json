@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Presentation about React Hooks API",
   "scripts": {
-    "start": "mdx-deck deck.mdx -p 8090"
+    "start": "mdx-deck deck.mdx -p 8090",
+    "build": "mdx-deck build deck.mdx",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Mario Uhrin",
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "file-loader": "^3.0.1",
+    "gh-pages": "^2.0.1",
     "mdx-deck": "^1.10.0",
     "style-loader": "^0.22.1"
   },
